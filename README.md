@@ -7,10 +7,6 @@ on top of Kubernetes. I decided to roll my own version of this because I was
 running K3S on top of a cluster of Raspberry Pi's and the current Helm
 charts don't support that setup very well.
 
-The version of the scripts in the root directory are designed to run on top of a K3S
-cluster running on Raspberry PI's. The scripts in the `do-version` folder are
-designed to work on a Digital Ocean K8S cluster.
-
 ## Requriements
 
 You need to include a ``kustomization.yaml`` file that looks something like
