@@ -1,0 +1,13 @@
+secretGenerator:
+- name: mysql-root-pass
+  literals:
+  - password=$omethingClever
+- name: mysql-nc-user-pass
+  literals:
+  - password=@lsoSomethingClever
+- name: nextcloud-admin-pass
+  literals:
+  - password=I@mSoSmart
+resources:
+- mysql-deployment.yaml
+- nextcloud-deployment.yaml
