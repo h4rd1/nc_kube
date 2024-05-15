@@ -91,10 +91,6 @@ kubectl apply -k ./
 kubectl apply -f ./nextcloud-ingress.yml
 ```
 
-## Testing
-
-Visit https://docs.tompurl.com
-
 ## Post-Installation Setup
 ### Overview
 These are the tasks that you would execute on a "real" system that you hope to maintain for the long-term.
