@@ -9,9 +9,9 @@ spec:
   containers:
   - env:
     - name: SSL_SUBJECT
-      value: cloud.mosrealstroy.ru
+      value: domainname
     - name: CA_SUBJECT
-      value: a.kapustin@mosrealstroy.ru
+      value: @email
     - name: SSL_KEY
       value: /certs/mrs.key
     - name: SSL_CSR
